@@ -2,6 +2,10 @@ library(keras3)
 library(reticulate)
 library(jsonlite)
 
+# First set your working director correctly to where your files are
+getwd()
+# setwd("")
+
 source("helper.R")
 
 "
