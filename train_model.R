@@ -2,6 +2,8 @@ library(keras3)
 library(reticulate)
 library(jsonlite)
 
+source("helper.R")
+
 "
 install_keras(
   backend = 'tensorflow',
